@@ -1,0 +1,24 @@
+[20-Jun-2019 05:41:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[21-Jun-2019 12:09:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[25-Jun-2019 07:47:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home2/safehao1/public_html/linkedaid/xml_http_request/donor_profile_info.php on line 12
+[25-Jun-2019 07:53:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[18-Jul-2019 08:07:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[18-Jul-2019 08:10:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[18-Jul-2019 08:10:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php:1) in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[05-Sep-2019 13:34:46 UTC] PHP Warning:  implode(): Invalid arguments passed in /home2/safehao1/public_html/linkedaid/xml_http_request/donor_profile_info.php on line 12
+[17-Sep-2019 06:46:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:46:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php on line 253
+[17-Sep-2019 06:46:44 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:47:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:47:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:47:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php on line 49
+[17-Sep-2019 06:48:03 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:48:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[17-Sep-2019 06:48:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php on line 49
+[17-Sep-2019 06:48:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[26-Sep-2019 14:08:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home2/safehao1/public_html/linkedaid/xml_http_request/fetch_pages.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/safehao1/public_html/linkedaid/xml_http_request/fetch_pages.php on line 24
+[23-Nov-2019 20:12:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/safehao1/public_html/linkedaid/core/init.php on line 15
+[23-Nov-2019 20:12:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/safehao1/public_html/linkedaid/xml_http_request/posts.php on line 253

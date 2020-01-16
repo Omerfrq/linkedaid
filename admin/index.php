@@ -1,0 +1,82 @@
+<?php require 'templates/header.php'; ?>
+  <body>
+    <div class="page">
+      <!-- Main Navbar-->
+      <?php require 'templates/navbar.php'; ?>
+      <div class="page-content d-flex align-items-stretch">
+        <!-- Side Navbar -->
+      <?php require 'templates/sidebar.php'; ?>
+        <div class="content-inner">
+          <!-- Page Header-->
+          <header class="page-header">
+            <div class="container-fluid">
+              <h2 class="no-margin-bottom">Dashboard</h2>
+            </div>
+          </header>
+          <!-- Dashboard Counts Section-->
+          <section class="dashboard-counts no-padding-bottom">
+            <div class="container-fluid">
+              <div class="row bg-white has-shadow">
+                <!-- Item -->
+                <div class="col-xl-3 col-sm-6">
+                  <div class="item d-flex align-items-center">
+                    <div class="icon bg-violet"><i class="icon-user"></i></div>
+                    <div class="title"><span>Total<br>NGO's</span>
+                      <div class="progress">
+                        <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar bg-violet"></div>
+                      </div>
+                    </div>
+                    <div class="number"><strong>25</strong></div>
+                  </div>
+                </div>
+                <!-- Item -->
+                <div class="col-xl-3 col-sm-6">
+                  <div class="item d-flex align-items-center">
+                    <div class="icon bg-red"><i class="icon-padnote"></i></div>
+                    <div class="title"><span>Total<br>Donors</span>
+                      <div class="progress">
+                        <div role="progressbar" style="width: 70%; height: 4px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar bg-red"></div>
+                      </div>
+                    </div>
+                    <div class="number"><strong>70</strong></div>
+                  </div>
+                </div>
+                <!-- Item -->
+                <div class="col-xl-3 col-sm-6">
+                  <div class="item d-flex align-items-center">
+                    <div class="icon bg-green"><i class="icon-bill"></i></div>
+                    <div class="title"><span>New<br>Invoices</span>
+                      <div class="progress">
+                        <div role="progressbar" style="width: 40%; height: 4px;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar bg-green"></div>
+                      </div>
+                    </div>
+                    <div class="number"><strong>40</strong></div>
+                  </div>
+                </div>
+                <!-- Item -->
+                <div class="col-xl-3 col-sm-6">
+                  <div class="item d-flex align-items-center">
+                    <div class="icon bg-orange"><i class="icon-check"></i></div>
+                    <div class="title"><span>Open<br>Cases</span>
+                      <div class="progress">
+                        <div role="progressbar" style="width: 50%; height: 4px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" class="progress-bar bg-orange"></div>
+                      </div>
+                    </div>
+                    <div class="number"><strong>50</strong></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Section-->
+
+          <!-- Page Footer-->
+          <?php require 'templates/footer.php'; ?>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <?php require 'templates/footer-scripts.php'; ?>
+  </body>
+</html>

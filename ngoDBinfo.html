@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>NGO - Information</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Main Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.min.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo-final-sm.png" width="150" height="30" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarResponsive">
+
+				<ul class="navbar-nav ml-auto ">
+					<li class="nav-item">
+						<a href="newsfeed.html" class="nav-link waddaFont active"> Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle waddaFont" data-hover="dropdown" data-toggle="dropdown" href="#" role="button"
+						 aria-haspopup="false" aria-expanded="false" tabindex='1'>Profiles</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item " href="ngoProfilepublic.html">My Page</a>
+							<a class="dropdown-item " href="publicprofilePage.html">My Profile</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle waddaFont" data-hover="dropdown" data-toggle="dropdown" href="#" role="button"
+						 aria-haspopup="false" aria-expanded="false" tabindex='1'> LinkedAID</a>
+						<div class="dropdown-menu ">
+							<a class="dropdown-item" href="aboutus.html">About us</a>
+							<a class="dropdown-item" href="travelAid.html">TravelAID</a>
+							<a class="dropdown-item" href="faqs.html">FAQs</a>
+							<a class="dropdown-item" href="privacyPolicy.html">Privacy Policy</a>
+							<a class="dropdown-item" href="terms.html">Terms & Conditions</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a href="contactus.html" class="nav-link waddaFont"> Contact us</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle waddaFont" data-hover="dropdown" data-toggle="dropdown" href="#" role="button"
+						 aria-haspopup="false" aria-expanded="false" tabindex='1'>
+							<i class="fa fa-language" aria-hidden="true"></i>
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item " href="ngoProfilepublic.html">
+								<img src="img/us.png"> en</a>
+							<a class="dropdown-item " href="publicprofilePage.html">
+								<img src="img/fr.png"> fr</a>
+							<a class="dropdown-item " href="publicprofilePage.html">
+								<img src="img/spi.png"> sp</a>
+						</div>
+					</li>
+
+					<li class="close-responsive-menu js-close-responsive-menu">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- ... end Header Standard -->
+
+	<div class="header-spacer--standard"></div>
+
+	<!-- Main Header Account -->
+
+	<div class="main-header">
+		<div class="content-bg-wrap bg-account-ngo"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="main-header-content">
+						<h1>Your Account Dashboard</h1>
+						<p>Welcome to your account dashboard! Here you’ll find everything you need to change your profile information,
+							settings,
+							<br>see your supporters, and donations history!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ... end Main Header Account -->
+
+	<!-- Your Account Personal Information -->
+
+	<div class="container">
+		<div class="row">
+			<!-- Dashboard Menu -->
+
+			<div class="col col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12">
+					<div class="ui-block">
+	
+						<div class="your-profile">
+							<div class="ui-block-title ui-block-title-small">
+								<h6 class="title">Your PROFILE</h6>
+							</div>
+	
+							<div id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="card">
+									<div class="card-header" role="tab" id="headingOne">
+										<h6 class="mb-0">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Profile Settings
+												<i class="fa fa-arrow-down" aria-hidden="true"></i>
+											</a>
+										</h6>
+									</div>
+	
+									<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+										<ul class="your-profile-menu">
+											<li>
+												<a href="ngoDBinfo.html">Profile Information</a>
+											</li>
+											<li>
+												<a href="ngoDBchangepass.html">Change Password</a>
+											</li>
+											<li>
+												<a href="ngoDBupdatedp.html">Update Display Picture</a>
+											</li>
+											<li>
+												<a href="ngoDBaddmap.html">Update Map</a>
+											</li>
+											<li>
+												<a href="">Logout</a>
+											</li>
+										</ul>
+									</div>
+	
+								</div>
+							</div>
+	
+	
+							<div class="ui-block-title">
+								<a href="ngoDBdonations.html" class="h6 title">Donations History</a>
+							</div>
+	
+							<div class="ui-block-title">
+								<a href="ngoDBdonors.html" class="h6 title">Your Supporters</a>
+							</div>
+	
+						</div>
+	
+					</div>
+				</div>
+	
+				<!-- Dashboard Menu Ends Here-->
+	
+				<!-- Your Account Personal Information -->
+			<div class="col col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
+				<div class="ui-block">
+					<div class="ui-block-title">
+						<h6 class="title">[NGO Name ] - Profile Information</h6>
+					</div>
+					<div class="ui-block-content">
+
+
+						<!-- Form Favorite Page Information -->
+
+						<form>
+							<div class="row">
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="form-group label-floating">
+										<label class="control-label">Contact Person First Name</label>
+										<input class="form-control" placeholder="" type="text" value="Green Goo">
+									</div>
+
+									<div class="form-group label-floating">
+										<label class="control-label">Contact Person Email</label>
+										<input class="form-control" placeholder="" type="email" value="greengoo_gigs@yourmail.com">
+									</div>
+
+									<div class="form-group date-time-picker label-floating">
+										<label class="control-label">Active since</label>
+										<input name="datetimepicker" value="10/24/1984" />
+										<span class="input-group-addon">
+											<svg class="olymp-calendar-icon icon">
+												<use xlink:href="svg-icons/sprites/icons.svg#olymp-calendar-icon"></use>
+											</svg>
+										</span>
+									</div>
+								</div>
+
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="form-group label-floating">
+										<label class="control-label">Contact Person Last Name</label>
+										<input class="form-control" placeholder="" type="text" value="Rock">
+									</div>
+
+									<div class="form-group label-floating">
+										<label class="control-label">NGO Website</label>
+										<input class="form-control" placeholder="" type="email" value="www.ggrock.com">
+									</div>
+
+
+									<div class="form-group label-floating">
+										<label class="control-label">Your Phone Number</label>
+										<input class="form-control" placeholder="" type="text">
+									</div>
+								</div>
+
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="form-group label-floating is-select">
+										<label class="control-label">NGO Country of Operation</label>
+										<select class="selectpicker form-control">
+											<option value="US">United States</option>
+											<option value="AU">Australia</option>
+										</select>
+									</div>
+								</div>
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="form-group label-floating is-select">
+										<label class="control-label">NGO City of Operation</label>
+										<input class="form-control" placeholder="" type="text" value="New York City , Chicago">
+
+									</div>
+								</div>
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="form-group label-floating">
+										<label class="control-label">Write a little description about the page</label>
+										<textarea class="form-control" placeholder="">We are Rock Band from Los Angeles, now based in San Francisco, come and listen to us play!</textarea>
+									</div>
+								</div>
+
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+
+									<div class="form-group label-floating is-empty">
+										<label class="control-label">HQ Based In</label>
+										<input class="form-control" placeholder="" type="text">
+									</div>
+
+									<div class="form-group label-floating is-select">
+										<label class="control-label">Sector of action</label>
+										<select class="selectpicker form-control" multiple>
+											<option value="">No Poverty</option>
+											<option value="">Zero Hunger</option>
+											<option value="">Good Health and Well Being</option>
+											<option value="">Quality Education</option>
+											<option value="">Gender Equality</option>
+											<option value="">Clean Water and Sanitation</option>
+											<option value="">Affordable and Clean Energy</option>
+											<option value="">Decent Work and Economic Growth</option>
+											<option value="">Industry , Innovation and Infrastucture</option>
+											<option value="">Reduced Inequalities</option>
+											<option value="">Sustainable cities and Communities</option>
+											<option value="">Responsible Consumption and Production</option>
+											<option value="">Climate Action</option>
+											<option value="">Life below Water</option>
+											<option value="">Life on Land</option>
+											<option value="">Peace , Justice and Strong Institutions</option>
+											<option value="">Partnerships for Goals</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<div class="form-group label-floating">
+										<label class="control-label">Additional Info</label>
+										<textarea class="form-control" placeholder="">We are open for gigs all over the country. If you are interested, please contact us via our website or send us an email to gigs@ggrock.com</textarea>
+									</div>
+								</div>
+
+								<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<div class="remember">
+
+										<div class="checkbox">
+											<label>
+												<input name="optionsCheckboxes" type="checkbox" checked> <strong>I commit to post information and pictures
+													regularly
+													to update sponsors on the progress of our projects.</strong>
+											</label>
+										</div>
+									</div>
+									<div class="form-group with-icon label-floating">
+										<label class="control-label">Your Facebook Account</label>
+										<input class="form-control" type="text" value="www.facebook.com/greengoo_rock">
+										<i class="fab fa-facebook-f c-facebook" aria-hidden="true"></i>
+									</div>
+									<div class="form-group with-icon label-floating">
+										<label class="control-label">Your Twitter Account</label>
+										<input class="form-control" type="text" value="www.twitter.com/greengoo_rock">
+										<i class="fab fa-twitter c-twitter" aria-hidden="true"></i>
+									</div>
+
+								</div>
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<a href="ngoProfilepublic.html" class="btn btn-secondary btn-lg full-width">View Public Profile</a>
+								</div>
+								<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+									<a href="#" class="btn btn-breez btn-lg full-width">Update Changes</a>
+								</div>
+							</div>
+						</form>
+
+						<!-- ... end Form Favorite Page Information -->
+
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- ... end Your Account Personal Information -->
+
+	<!-- Footer -->
+
+	<div class="footer" id="footer" style="background-color:#fff;">
+		<div class="sub-footer-copyright">
+			<span>
+				Copyright
+				<a href="newsfeed.html">LinkedAID</a> All Rights Reserved 2018
+			</span>
+		</div>
+
+
+
+	</div>
+
+	<!-- ... end Footer -->
+
+	<a class="back-to-top bg-breez" href="#">
+		<img src="svg-icons/back-to-top.svg" alt="arrow" class="back-icon">
+	</a>
+
+
+
+	<!-- JS Scripts -->
+	<script>
+		function multipleFunc() {
+			document.getElementById("mySelect").multiple = true;
+		}
+	</script>
+
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/perfect-scrollbar.js"></script>
+	<script src="js/jquery.matchHeight.js"></script>
+	<script src="js/svgxuse.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/Headroom.js"></script>
+	<script src="js/velocity.js"></script>
+	<script src="js/ScrollMagic.js"></script>
+	<script src="js/jquery.waypoints.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/material.min.js"></script>
+	<script src="js/bootstrap-select.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script src="js/ajax-pagination.js"></script>
+	<script src="js/base-init.js"></script>
+	<script defer src="fonts/fontawesome-all.js"></script>
+	<script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

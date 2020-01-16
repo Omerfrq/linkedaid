@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.custom-card-img {
+  width: 100%;
+  height: 150px;
+}
+
+.font-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.f-sm {
+  font-size: 1rem;
+}
+
+.btn-fb {
+  background-color: #4267b2 !important;
+  color: white;
+}
+
+.btn-fb:hover {
+  background-color: #4267b2 !important;
+  color: white;
+}
